@@ -1,0 +1,128 @@
+#heading{
+    font-family: fantasy;
+    font-style: italic;
+    color:rgb(160, 128, 68);
+    text-align: center;
+}
+#add
+{
+    color:rgb(0, 34, 128);
+    font-family: cursive;
+    background-color: rgb(14, 206, 219);
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: solid;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+#sub
+{
+    color:orange;
+    font-family: cursive;
+    background-color: rgb(14, 206, 219);
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: solid;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:30px;
+}
+#mult
+{
+    color:rgb(0, 255, 170);
+    font-family: cursive;
+    background-color: rgb(14, 206, 219);
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: solid;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:30px;
+}
+#div
+{
+    color:magenta;
+    font-family: cursive;
+    background-color: rgb(14, 206, 219);
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: solid;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:30px;
+}
+#rem
+{
+    color:red;
+    background-color: rgb(14, 206, 219);
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: solid;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:30px;
+    font-family: cursive;
+}
+#max
+{
+    color:green;
+    background-color: rgb(14, 206, 219);
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: solid;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:30px;
+    font-family: cursive;
+}
+#min
+{
+    color:rgb(223, 14, 129);
+    background-color: rgb(14, 206, 219);
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: solid;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:30px;
+    font-family: cursive;
+}
+#addText{
+    color:red;
+    font-style: italic;
+    font-family: fantasy;
+
+}
+#subText{
+      color: green;
+      font-style: italic;
+      font-family: fantasy;
+}
+#divText{
+    color: blue;
+    font-style: italic;
+    font-family: fantasy;
+
+}
+#multText{
+    color:rgb(223, 14, 129);
+    font-style: italic;
+    font-family: fantasy;
+}
+#remText{
+    font-family: fantasy;
+    font-style: italic;
+    color:rgb(0, 34, 128);
+}
+#maxText{
+    font-family: fantasy;
+    font-style: italic;
+    color:orange;
+}
+#minText{
+    font-family: fantasy;
+    font-style: italic;
+    color:rgb(0, 255, 170);
+}
