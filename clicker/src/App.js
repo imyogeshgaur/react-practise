@@ -6,11 +6,11 @@ const App = () =>{
 
 const[count,setCount] = useState(0);
 const IncreaseNumber = () =>{
-    console.log(state)
+    // console.log(state)
     setCount(count+1)
 }
 const DecreaseNumber = () =>{
-    console.log(state)
+    // console.log(state)
     setCount(count-1)
 }
     return(
