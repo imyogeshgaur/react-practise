@@ -1,8 +1,10 @@
-import React from "react";
-import ComC from "./CompC";
+import React from 'react'
+import ComC from './CompC'
 
 const ComB = () => {
-  return <ComC />;
-};
+  return (
+    <ComC />
+  );
+}
 
-export default ComB;
+export default ComB

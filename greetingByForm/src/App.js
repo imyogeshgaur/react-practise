@@ -16,6 +16,7 @@ const App = () => {
     setColor("green");
     alert("Form Submitted !!!");
   };
+  
   const inputEvent = (event) => {
     const value = event.target.value;
     const name = event.target.name;

@@ -254,7 +254,7 @@ export const contactReducer = (state = intialState, action) => {
       };
     case GET_CONTACT:
       let arr = state.contacts.filter(
-        (contact) => contact.id == action.payload
+        (contact) => contact.id === action.payload
       );
       arr = arr.values();
       for (let val of arr) {
@@ -268,14 +268,14 @@ export const contactReducer = (state = intialState, action) => {
       return {
         ...state,
         contacts: state.contacts.map((contact) =>
-          contact.id == action.payload.id ? action.payload : contact
+          contact.id === action.payload.id ? action.payload : contact
         ),
       };
     case DELETE_CONTACT:
       return {
         ...state,
         contacts: state.contacts.filter(
-          (contact) => contact.id != action.payload
+          (contact) => contact.id !== action.payload
         ),
       };
     case DELETE_SELECTED_CONTACT:

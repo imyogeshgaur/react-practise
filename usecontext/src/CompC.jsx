@@ -1,26 +1,36 @@
-import React from "react";
-import { fname, lname } from "./App";
+import React from 'react'
+import { FirstName, LastName, Age, Hobby } from './App';
 
 const ComC = () => {
   return (
     <>
-      <fname.Consumer>
-        {(fn) => {
+      <FirstName.Consumer>
+        {(fname) => {
           return (
-            <lname.Consumer>
-              {(ln) => {
+            <LastName.Consumer>
+              {(lname) => {
                 return (
-                  <h1>
-                    My Name is {fn} {ln}
-                  </h1>
+                  <Age.Consumer>
+                    {(age) => {
+                      return (
+                        <Hobby.Consumer>
+                          {(hobby) => {
+                            return (
+                              <h1>My name is {fname} {lname}. My Age is {age} and  my hobby is {hobby}</h1>
+                            );
+                          }}
+                        </Hobby.Consumer>
+                      );
+                    }}
+                  </Age.Consumer>
                 );
               }}
-            </lname.Consumer>
+            </LastName.Consumer>
           );
         }}
-      </fname.Consumer>
+      </FirstName.Consumer>
     </>
   );
-};
+}
 
 export default ComC;
